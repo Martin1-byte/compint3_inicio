@@ -2,8 +2,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
 }
 
 h1{
     color: rgb(22, 190, 168);
+}
+
+.contenedor{
+    background-color: wheat;
+    width: 100%;
+    max-width: 900px;
+    padding-left: 20px;
+    height: 100%;
+    min-height: 800px;
 }
